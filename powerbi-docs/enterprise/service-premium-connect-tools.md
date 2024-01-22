@@ -176,8 +176,8 @@ The following table describes the implications of both settings:
 
 |Setting  |Allow XMLA endpoints and Analyze in Excel with on-premises semantic models = **disabled**  |Allow XMLA endpoints and Analyze in Excel with on-premises semantic models = **enabled**  |
 |---------|---------|---------|
-|**Users can work with semantic models in Excel using a live connection** = disabled     |XMLA *disallowed*, Analyze in Excel *disallowed*, AIXL for on-premises semantic models *disallowed*         |XMLA *allowed*, Analyze in Excel *disallowed*, AIXL for on-premises semantic models *allowed*         |
-|**Users can work with semantic models in Excel using a live connection** = enabled     | XMLA *disallowed*, Analyze in Excel *allowed*, AIXL for on-premises semantic models *disallowed*        | XMLA *allowed*, Analyze in Excel *allowed*, AIXL for on-premises semantic models *allowed*        |
+|**Users can work with semantic models in Excel using a live connection** = disabled     |XMLA *disallowed*, Analyze in Excel (AIXL) and usage of the connector “Power BI Semantic model” in Power BI Desktop *disallowed*, AIXL for on-premises semantic models *disallowed*         |XMLA *allowed*, Analyze in Excel (AIXL) and usage of the connector “Power BI Semantic model” in Power BI Desktop *disallowed*, AIXL for on-premises semantic models *allowed*         |
+|**Users can work with semantic models in Excel using a live connection** = enabled     | XMLA *disallowed*, Analyze in Excel (AIXL) and usage of the connector “Power BI Semantic model” in Power BI Desktop *allowed*, AIXL for on-premises semantic models *disallowed*        | XMLA *allowed*, Analyze in Excel (AIXL) and usage of the connector “Power BI Semantic model” in Power BI Desktop *allowed*, AIXL for on-premises semantic models *allowed*       |
 
 Access through the XMLA endpoint will honor security group membership set at the workspace/app level.
 
